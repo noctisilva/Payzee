@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.taehong.payzee" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat" >
+        <activity android:name=".rootPage" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".location"
+            android:label="@string/title_activity_location"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ConfirmPage"
+            android:label="@string/title_activity_confirm_page" >
+        </activity>
+        <activity
+            android:name=".tableNumber"
+            android:label="@string/title_activity_table_number" >
+        </activity>
+        <activity
+            android:name=".receiptShit"
+            android:label="@string/title_activity_receipt_shit" >
+        </activity>
+        <activity
+            android:name=".lastPage"
+            android:label="@string/title_activity_last_page" >
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

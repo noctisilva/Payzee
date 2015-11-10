@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Payzee</string>
+    <string name="title_activity_location">location</string>
+    <string name="title_activity_confirm_page">ConfirmPage</string>
+    <string name="title_activity_table_number">tableNumber</string>
+    <string name="title_activity_receipt_shit">receiptShit</string>
+    <string name="title_activity_last_page">lastPage</string>
+</resources>
